@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
-const targetURL = "https://chipper-biscotti-c69d96.netlify.app/.netlify/functions/api"
+const targetURL = "https://clever-gingersnap-c3876f.netlify.app/.netlify/functions/api"
 const concurrentRequests = 100
 
 func makeRequest(wg *sync.WaitGroup) {
